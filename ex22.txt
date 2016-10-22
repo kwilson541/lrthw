@@ -1,0 +1,37 @@
+puts		displays results of Ruby code, includes a new line
+#			ocothorpe/pound/hash: used for comments, which will not be run as part of the script
++			addition arithmatic operator: adds two arguments
+-			subtraction arithmatic operator: subtracts two arguments
+*			multiplication arithmatic operator: multiplies two arguments
+/			division arithmatic operator: divides two arguments
+%			modulus arithmatic operator: divides left argument by right argument and returns remainder
+**			exponent arithmatic operator: performs power calculation on arguments
+>			greater than comparison operator
+<			less than comparison operator
+>=			greater than or equal to comparison operator
+<=			less than or equal to comparison operator
+==			equal to comparison operator
+integer		number (e.g. 0-9)
+float		number with decimal (e.g. 4.0, 78.32)
+string		string class: sequence of characters, can be put between single or double quotes
+""			double-quoted string: allows substitution and backslash notation
+''			single-quoted string: don't allow substitution or backslash notation (only \\ and \')
+#{}			expression substitution: embeds the value of any Ruby expression into a string
+%			general delimited strings: allows you to define a character to be used as a string delimiter
+print		displays results of Ruby code, without new line
+\			escape character: invokes an alternative interpretation on subsequent characters
+gets		method: gets user input
+chomp		method: removes trailing new line character (i.e. from user input)
+to_i		method: converts to integer
+to_f		method: converts to float
+to_s		method: converts to string
+ARGV		argument variable: hold the arguments you pass to your Ruby script when you run it
+$stdin		if there are no files in ARGV, stdin will read from user input
+open		method: opens a file
+close		method: closes a file
+read 		method: prints file contents so they can be read
+truncate	method: erases content of a file
+write		method: writes to a file
+def 		declares a method
+end			declares end of method
+return 		returns expression, can be used to end methods early
