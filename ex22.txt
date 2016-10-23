@@ -35,3 +35,8 @@ write		method: writes to a file
 def 		declares a method
 end			declares end of method
 return 		returns expression, can be used to end methods early
+..			range operator: includes final value (e.g. 0..3 = 0, 1, 2, 3s)
+...			range operator: does not include final value (e.g. 0...3 = 0, 1, 2)
+array		array class: ordered, integer-indexed collections of any object
+<<			pushes given object into an array
+each		calls a block once for each element
